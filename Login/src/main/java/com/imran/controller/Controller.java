@@ -11,4 +11,12 @@ public class Controller {
 	public String Home() {
 		return "Welcome to Home";
 	}
+	
+	@RequestMapping("/Dev1")
+	public String Dev1() {
+		return "Welcome to Dev1";
+	}
+	
+	
+	
 }
