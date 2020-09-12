@@ -16,4 +16,9 @@ public class Controller {
 	public String Home1() {
 		return "Welcome to Home";
 	}
+	
+	@RequestMapping("/Hello8")
+	public String Home8() {
+		return "Welcome to Home";
+	}
 }
